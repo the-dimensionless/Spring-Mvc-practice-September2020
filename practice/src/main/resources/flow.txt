@@ -1,0 +1,10 @@
+SPRING MVC
+
+1. A simple AnnotationConfigWebApplicationContext object and
+	made sure it registers our Spring Configuration (AppConfig.class)
+
+2. Bootstrap the DispatcherServlet using ServletRegistration.Dynamic
+	tied up context to dispatcher servlet
+	
+3. Any Configs in Dispatcher Servlet AppInitializer class class, for Spring configs in AplicationConfig
+
